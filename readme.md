@@ -5,6 +5,7 @@ This repository contains three small automated testing projects developed to pra
 The tests are performed on **Swag Labs (SauceDemo)**, an e-commerce web application used for practicing test automation.
 
 🌐 **Application under test:** https://www.saucedemo.com/
+![Home page](screenshots/home-page.png)
 
 ---
 
