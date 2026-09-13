@@ -202,13 +202,13 @@ git --version
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/saucedemo-automation-tests.git
+git clone https://github.com/ouelhezi/E-commerce-Automated-Testing-Projects.git
 ```
 
 Navigate to the desired project:
 
 ```bash
-cd cucumber-tests
+cd TestCucumber
 ```
 
 Run the tests with Maven:
