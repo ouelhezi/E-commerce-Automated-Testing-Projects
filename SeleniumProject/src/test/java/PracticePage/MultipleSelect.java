@@ -1,0 +1,19 @@
+package PracticePage;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class MultipleSelect {
+    public static void main(String[] args) {
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://www.letskodeit.com/practice");
+        WebElement menu = driver.findElement(By.id("multiple-select-example"));
+        Select multisSelect = new Select(menu);
+        multisSelect.selectByIndex(0);
+        multisSelect.selectByIndex(1);
+
+    }
+}
